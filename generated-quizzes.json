@@ -1,0 +1,177 @@
+{
+  "book1": {
+    "title": "Harry Potter and the Philosopher's Stone",
+    "tiers": {
+      "medium": {
+        "difficulty": "5/10",
+        "id": "qz_146ed2d87ce4810a6b45",
+        "url": "https://quizgen.dev/q/hmegxb"
+      },
+      "hard": {
+        "difficulty": "7/10",
+        "id": "qz_23db8e840637a1247345",
+        "url": "https://quizgen.dev/q/ewwq6y"
+      },
+      "expert": {
+        "difficulty": "9/10",
+        "id": "qz_b0aef16bf6328026e6c0",
+        "url": "https://quizgen.dev/q/mdghmh"
+      },
+      "easy": {
+        "difficulty": "3/10",
+        "id": "qz_af2b2f0e5901ccbb5cfe",
+        "url": "https://quizgen.dev/q/nwwj2t"
+      }
+    }
+  },
+  "book2": {
+    "title": "Harry Potter and the Chamber of Secrets",
+    "tiers": {
+      "easy": {
+        "difficulty": "3/10",
+        "id": "qz_ec7d2ddeecb5ecf4b8cf",
+        "url": "https://quizgen.dev/q/pgi4zb"
+      },
+      "medium": {
+        "difficulty": "5/10",
+        "id": "qz_a244553207e9da092264",
+        "url": "https://quizgen.dev/q/ewwy42"
+      },
+      "hard": {
+        "difficulty": "7/10",
+        "id": "qz_399b9f84032123461f30",
+        "url": "https://quizgen.dev/q/rinuht"
+      },
+      "expert": {
+        "difficulty": "9/10",
+        "id": "qz_263b391a09e7b8dde0e3",
+        "url": "https://quizgen.dev/q/bsrtuh"
+      }
+    }
+  },
+  "book3": {
+    "title": "Harry Potter and the Prisoner of Azkaban",
+    "tiers": {
+      "easy": {
+        "difficulty": "3/10",
+        "id": "qz_d19c4ffba665fe28f7b4",
+        "url": "https://quizgen.dev/q/fvwv4u"
+      },
+      "medium": {
+        "difficulty": "5/10",
+        "id": "qz_5061450ee65f95a18485",
+        "url": "https://quizgen.dev/q/zn2tzm"
+      },
+      "hard": {
+        "difficulty": "7/10",
+        "id": "qz_e4af5864c7b69ae7e978",
+        "url": "https://quizgen.dev/q/cbj5jt"
+      },
+      "expert": {
+        "difficulty": "9/10",
+        "id": "qz_7163c6c6dac526a368d0",
+        "url": "https://quizgen.dev/q/iu8ttt"
+      }
+    }
+  },
+  "book4": {
+    "title": "Harry Potter and the Goblet of Fire",
+    "tiers": {
+      "easy": {
+        "difficulty": "3/10",
+        "id": "qz_61dcc0c3be32a0c844c1",
+        "url": "https://quizgen.dev/q/7x4jr9"
+      },
+      "medium": {
+        "difficulty": "5/10",
+        "id": "qz_f5d656bc3dad7f1bfc9a",
+        "url": "https://quizgen.dev/q/d3ab2t"
+      },
+      "hard": {
+        "difficulty": "7/10",
+        "id": "qz_ca5cc38055cb4e9166ae",
+        "url": "https://quizgen.dev/q/38hc25"
+      },
+      "expert": {
+        "difficulty": "9/10",
+        "id": "qz_588b342133faed67b3c9",
+        "url": "https://quizgen.dev/q/bx7q5f"
+      }
+    }
+  },
+  "book5": {
+    "title": "Harry Potter and the Order of the Phoenix",
+    "tiers": {
+      "easy": {
+        "difficulty": "3/10",
+        "id": "qz_88804b7bfbfd6bdedd5f",
+        "url": "https://quizgen.dev/q/e44x5z"
+      },
+      "medium": {
+        "difficulty": "5/10",
+        "id": "qz_4031ebb2bee0a7bdf36d",
+        "url": "https://quizgen.dev/q/vsnrq6"
+      },
+      "hard": {
+        "difficulty": "7/10",
+        "id": "qz_5f6714dce1f521a3ed12",
+        "url": "https://quizgen.dev/q/s67mbx"
+      },
+      "expert": {
+        "difficulty": "9/10",
+        "id": "qz_9f4daf4802361a479135",
+        "url": "https://quizgen.dev/q/4rb3dc"
+      }
+    }
+  },
+  "book6": {
+    "title": "Harry Potter and the Half-Blood Prince",
+    "tiers": {
+      "easy": {
+        "difficulty": "3/10",
+        "id": "qz_97738fd42ccd39c62789",
+        "url": "https://quizgen.dev/q/beeisv"
+      },
+      "medium": {
+        "difficulty": "5/10",
+        "id": "qz_85c3dad11d3a9613c475",
+        "url": "https://quizgen.dev/q/ix6qhc"
+      },
+      "hard": {
+        "difficulty": "7/10",
+        "id": "qz_0570988193b153472f0a",
+        "url": "https://quizgen.dev/q/7ex8fs"
+      },
+      "expert": {
+        "difficulty": "9/10",
+        "id": "qz_8a0e0925dbb355a3890e",
+        "url": "https://quizgen.dev/q/pucuxz"
+      }
+    }
+  },
+  "book7": {
+    "title": "Harry Potter and the Deathly Hallows",
+    "tiers": {
+      "easy": {
+        "difficulty": "3/10",
+        "id": "qz_7340b3fc120b787e1653",
+        "url": "https://quizgen.dev/q/ukpatc"
+      },
+      "medium": {
+        "difficulty": "5/10",
+        "id": "qz_8702aab05279af10505e",
+        "url": "https://quizgen.dev/q/t6ipd3"
+      },
+      "hard": {
+        "difficulty": "7/10",
+        "id": "qz_d875e6c18c1d8f694e89",
+        "url": "https://quizgen.dev/q/gwpz9x"
+      },
+      "expert": {
+        "difficulty": "9/10",
+        "id": "qz_fc866e6e06434d22a077",
+        "url": "https://quizgen.dev/q/fhk629"
+      }
+    }
+  }
+}

@@ -98,6 +98,7 @@ async function main() {
   const data = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
 
   const bookFilter = process.argv.find((a) => a.startsWith('--book='))?.split('=')[1];
+  const force = process.argv.includes('--force');
   const bookKeys = bookFilter ? [bookFilter] : Object.keys(data).sort();
   if (bookFilter && !data[bookFilter]) {
     console.error(`Unknown book "${bookFilter}". Known: ${Object.keys(data).sort().join(', ')}`);
@@ -111,6 +112,10 @@ async function main() {
     const book = data[bookKey];
     results[bookKey] = results[bookKey] || { title: book.title, tiers: {} };
     for (const tier of Object.keys(book.quizzes)) {
+      if (results[bookKey].tiers[tier] && !force) {
+        console.log(`Skipping ${bookKey}/${tier} (already published: ${results[bookKey].tiers[tier].url}) -- pass --force to recreate`);
+        continue;
+      }
       const definition = buildDefinition(book.title, tier, book.quizzes[tier]);
       process.stdout.write(`Creating ${bookKey}/${tier}... `);
       const created = await createQuiz(apiKey, definition);

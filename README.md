@@ -32,4 +32,4 @@ or genuinely multi-part answers that can't be auto-graded at all).
 
 - A live, publicly-visible leaderboard (would need a small key-holding proxy —
   by design, the QuizGen API key never goes anywhere but your local `.env`).
-- A "Franchise Finale" quiz pulling from `franchise_ledger.md`.
+- A "Franchise Finale" quiz pulling from `research/franchise_ledger.md`.
