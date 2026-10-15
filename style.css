@@ -1,0 +1,91 @@
+:root {
+  --bg: #0f0d1a;
+  --card: #1b1830;
+  --text: #f1eefc;
+  --muted: #a79fcf;
+  --gryffindor: #ae0001;
+  --slytherin: #1a472a;
+  --hufflepuff: #ecb939;
+  --ravenclaw: #222f5b;
+  --accent: #d4af37;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  min-height: 100vh;
+}
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 4rem;
+}
+
+h1 {
+  font-size: 1.9rem;
+  text-align: center;
+  margin-bottom: 0.25rem;
+}
+
+.intro {
+  text-align: center;
+  color: var(--muted);
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+.book-card {
+  background: var(--card);
+  border-radius: 14px;
+  padding: 1.1rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid rgba(212, 175, 55, 0.25);
+}
+
+.book-card h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.1rem;
+}
+
+.tier-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+}
+
+.tier-link {
+  display: block;
+  text-align: center;
+  padding: 0.6rem 0.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--text);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: transform 0.1s ease;
+}
+
+.tier-link:active { transform: scale(0.97); }
+
+.tier-easy { background: var(--hufflepuff); color: #1a1500; }
+.tier-medium { background: var(--ravenclaw); }
+.tier-hard { background: var(--slytherin); }
+.tier-expert { background: var(--gryffindor); }
+
+.empty {
+  text-align: center;
+  color: var(--muted);
+  margin-top: 3rem;
+}
+
+.empty code {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+}

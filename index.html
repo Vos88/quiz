@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Harry Potter Pub Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <h1>⚡ Harry Potter Pub Quiz</h1>
+    <p class="intro">
+      Pick a book and a difficulty. Each quiz opens on your own phone — fill it in,
+      submit, and your quizmaster will read out the leaderboard between rounds.
+    </p>
+    <div id="books"></div>
+    <p id="empty" class="empty" hidden>
+      No quizzes have been published yet. The host needs to run
+      <code>node scripts/create-quizzes.js</code> first.
+    </p>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

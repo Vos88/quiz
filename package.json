@@ -1,0 +1,12 @@
+{
+  "name": "hp-pub-quiz",
+  "private": true,
+  "description": "Harry Potter pub quiz: static GitHub Pages landing page + QuizGen-hosted quizzes + local grading/leaderboard scripts",
+  "engines": { "node": ">=20.6.0" },
+  "scripts": {
+    "parse": "node scripts/parse-markdown.js",
+    "create": "node scripts/create-quizzes.js",
+    "scores": "node scripts/fetch-scores.js",
+    "test": "node scripts/grading.js"
+  }
+}
