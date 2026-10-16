@@ -1,6 +1,6 @@
 # Harry Potter and the Deathly Hallows — Pub Quiz 4 (Difficulty 9/10)
 
-*20 questions, entirely open-answer — expert tier, plus one tiebreaker.*
+*26 questions, entirely open-answer — expert tier, plus one tiebreaker.*
 
 1. **(Magic) (Open)** What is the exact length of Voldemort's own wand (yew, with a phoenix feather core)?
 
@@ -42,6 +42,18 @@
 
 20. **(Plot) (Open)** Match each Deathly Hallow — the Elder Wand, the Resurrection Stone, and the Cloak of Invisibility — to the Peverell brother who first owned it: Antioch, Cadmus, and Ignotus.
 
+21. **(Characters) (Open)** What name does Harry use while Polyjuiced as a red-headed Muggle "cousin" at Bill and Fleur's wedding?
+
+22. **(Places) (Open)** In which run-down Muggle mill town, on a street called Spinner's End, did Severus Snape grow up near Lily Evans?
+
+23. **(Places) (Open)** On which London street do Harry, Ron and Hermione first take shelter immediately after escaping the Ministry's fall at the wedding?
+
+24. **(Magic) (Open)** What spell does Hagrid use, with poor results, in a failed attempt to mend the motorbike's damaged sidecar during the escape from Privet Drive?
+
+25. **(Quidditch) (Open)** Which professional Quidditch team's poster, alongside one for the Weird Sisters, decorates Ginny Weasley's bedroom?
+
+26. **(Deaths) (Open)** Which Order of the Phoenix member, Nymphadora Tonks's father, is confirmed murdered while in hiding with Dean Thomas and Dirk Cresswell?
+
 ---
 
 ## Answer Key — Quiz 4 (9/10)
@@ -66,5 +78,11 @@
 18. Twelve
 19. He is a werewolf
 20. Elder Wand — Antioch; Resurrection Stone — Cadmus; Cloak of Invisibility — Ignotus
+21. "Cousin Barny" (Barny Weasley)
+22. Cokeworth
+23. Tottenham Court Road
+24. Reparo
+25. The Holyhead Harpies
+26. Ted Tonks
 
 **Tiebreaker (exact number):** At what age was Gellert Grindelwald expelled from Durmstrang? → **16**

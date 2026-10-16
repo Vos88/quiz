@@ -1,6 +1,6 @@
 # Harry Potter and the Deathly Hallows — Pub Quiz 3 (Difficulty 7/10)
 
-*20 questions, entirely open — this round rewards close readers, plus one tiebreaker.*
+*28 questions, entirely open — this round rewards close readers, plus one tiebreaker.*
 
 1. **(Magic) (Open)** What wood and core make up Harry's original wand, broken beyond repair during the escape from Bathilda Bagshot's house — and how long is it?
 
@@ -24,7 +24,7 @@
 
 11. **(Numbers) (Open)** According to Rita Skeeter's book, how many pages long is "The Life and Lies of Albus Dumbledore," and how many weeks did she reportedly take to write it?
 
-12. **(Deaths) (Open)** Which Hogwarts professor is killed on Voldemort's orders by Nagini's bite, inside the Shrieking Shack?
+12. **(Deaths) (Open)** Which former Ministry employee from the Goblin Liaison Office, confirmed murdered according to a Potterwatch broadcast, had earlier escaped an Azkaban transfer alongside Ted Tonks?
 
 13. **(Places) (Open)** In which hidden chamber beneath Hogwarts do Ron and Hermione retrieve the Basilisk fang used to destroy the Hufflepuff cup Horcrux?
 
@@ -34,13 +34,29 @@
 
 16. **(Magic) (Open)** What is the name of the enchanted, light-absorbing object Dumbledore leaves Ron in his will, which later guides Ron back to Harry and Hermione?
 
-17. **(Plot) (Open)** Which goblin agrees to help the trio break into Gringotts, but ultimately betrays them and steals back the sword of Gryffindor?
+17. **(Creatures) (Open)** What term describes the reanimated corpses that guard the cave where the locket Horcrux was originally hidden?
 
 18. **(Characters) (Open)** What is the name of Ravenclaw House's ghost, the "Grey Lady," who turns out to be Rowena Ravenclaw's own daughter?
 
 19. **(Numbers) (Open)** Roughly how many Death Eaters ambush the seven "Potters" in the air during the escape from Privet Drive?
 
 20. **(Plot) (Open)** Name, in order of destruction within this book (from first to last), the four Horcruxes that Harry's side destroys.
+
+21. **(Characters) (Open)** What false identity, as a half-blood former Ravenclaw prefect, does Hermione give the Snatchers when the trio is captured?
+
+22. **(Characters) (Open)** What previously-unknown magical ability does Ron use, mimicking Harry, to open the entrance to the Chamber of Secrets himself?
+
+23. **(Places) (Open)** What is the name of the remote fortress-prison, built by Gellert Grindelwald himself, where Voldemort is implied to track him down and kill him?
+
+24. **(Places) (Open)** In which country's forest did young Tom Riddle hide Ravenclaw's diadem inside a hollow tree, after learning its location from the Grey Lady?
+
+25. **(Quidditch) (Open)** Which wandmaker, sought by Voldemort for his knowledge of the Elder Wand, had previously made Viktor Krum's wand?
+
+26. **(Food/Sweets) (Open)** What unusual soup, made from a magical freshwater creature, does Xenophilius Lovegood mention preparing for the trio?
+
+27. **(Food/Sweets) (Open)** Which Weasleys' Wizard Wheezes sweet does Ron use to force a real Ministry wizard to vomit, so he can steal the man's hair and identity as "Reg Cattermole"?
+
+28. **(Creatures) (Open)** What creature, living in the attic above Ron's bedroom, is disguised with fake pustules to impersonate a "Ron" sick with spattergroit?
 
 ---
 
@@ -57,14 +73,22 @@
 9. Geminio (the Duplication Charm)
 10. Ragnuk the First
 11. Nine hundred pages, written in four weeks
-12. Severus Snape
+12. Dirk Cresswell
 13. The Chamber of Secrets
 14. Fiendfyre
 15. 31 October 1981
 16. The Deluminator
-17. Griphook
+17. Inferi
 18. Helena Ravenclaw
 19. About thirty
 20. The locket, then Hufflepuff's cup, then Ravenclaw's diadem, then Nagini
+21. Penelope Clearwater
+22. Parseltongue
+23. Nurmengard
+24. Albania
+25. Gregorovitch
+26. Freshwater Plimpy soup
+27. Puking Pastilles
+28. The family ghoul
 
-**Tiebreaker (exact number):** According to his Daily Prophet obituary, how many uses of dragon's blood did Albus Dumbledore discover? → **12**
+**Tiebreaker (exact number):** According to Kreacher's account, at what age did Regulus Arcturus Black join the Death Eaters? → **16**

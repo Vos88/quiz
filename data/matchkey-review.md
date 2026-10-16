@@ -1,44 +1,44 @@
 # matchKey review
 
-28 Open-question answers produced a long/uncertain matchKey (>6 words).
+29 Open-question answers produced a long/uncertain matchKey (>6 words).
 Spot-check these in data/quizzes.json and shorten the `matchKey` field by hand if it looks wrong.
 
-- **book2_quiz3_hard_7-10.md Q9**
+- **book2_quiz3_hard_7-10.md Q14**
   - answer: Powdered Bicorn horn and shredded Boomslang skin
   - derived matchKey: `powdered bicorn horn and shredded boomslang skin`
-- **book2_quiz3_hard_7-10.md Q19**
+- **book2_quiz3_hard_7-10.md Q24**
   - answer: A mound of whipped cream and sugared violets
   - derived matchKey: `a mound of whipped cream and sugared violets`
-- **book3_quiz4_expert_9-10.md Q8**
-  - answer: The day he was expelled from Hogwarts, and the day his father died.
-  - derived matchKey: `the day he was expelled from hogwarts`
-- **book3_quiz4_expert_9-10.md Q12**
-  - answer: A torn/ragged left ear and a missing toe.
-  - derived matchKey: `a torn/ragged left ear and a missing toe`
-- **book3_quiz4_expert_9-10.md Q13**
-  - answer: "I solemnly swear that I am up to no good" activates it; "Mischief managed" wipes it blank.
-  - derived matchKey: `i solemnly swear that i am up to no good`
+- **book3_quiz3_hard_7-10.md Q14**
+  - answer: In a map of Argyllshire, on the second floor
+  - derived matchKey: `in a map of argyllshire, on the second floor`
+- **book3_quiz4_expert_9-10.md Q21**
+  - answer: He realizes the rescuer wasn't his father — it was himself, having gone back in time and cast the Patronus himself.
+  - derived matchKey: `he realizes the rescuer wasn't his father`
+- **book4_quiz3_hard_7-10.md Q21**
+  - answer: Starved, with his wooden leg and magical eye removed, found alive but very weak
+  - derived matchKey: `starved, with his wooden leg and magical eye removed, found alive but very weak`
+- **book4_quiz3_hard_7-10.md Q23**
+  - answer: Transfigures it into a bone and buries it in front of Hagrid's cabin
+  - derived matchKey: `transfigures it into a bone and buries it in front of hagrid's cabin`
 - **book4_quiz4_expert_9-10.md Q5**
   - answer: A twelve-bedroomed tent with an en-suite Jacuzzi
   - derived matchKey: `a twelve-bedroomed tent with an en-suite jacuzzi`
 - **book4_quiz4_expert_9-10.md Q7**
   - answer: They try to pay with giant/oversized gold coins
   - derived matchKey: `they try to pay with giant/oversized gold coins`
-- **book4_quiz4_expert_9-10.md Q13**
-  - answer: 10–0, then 30–0, then 100–10, then 130–10
-  - derived matchKey: `10–0, then 30–0, then 100–10, then 130–10`
 - **book4_quiz4_expert_9-10.md Q14**
   - answer: About 100 Skrewts, roughly 6 inches each
   - derived matchKey: `about 100 skrewts, roughly 6 inches each`
-- **book5_quiz3_hard_7-10.md Q4**
+- **book5_quiz3_hard_7-10.md Q2**
   - answer: Eleven inches long, with a phoenix-feather core
   - derived matchKey: `eleven inches long, with a phoenix-feather core`
-- **book5_quiz4_expert_9-10.md Q1**
-  - answer: Naught to seventy miles an hour in ten seconds
-  - derived matchKey: `naught to seventy miles an hour in ten seconds`
-- **book5_quiz4_expert_9-10.md Q8**
+- **book5_quiz4_expert_9-10.md Q4**
   - answer: A tiny jeweled egg that hatches into a hummingbird, ages, and reverts back into an egg
   - derived matchKey: `a tiny jeweled egg that hatches into a hummingbird, ages`
+- **book5_quiz4_expert_9-10.md Q20**
+  - answer: An umbrella stand made from a severed troll's leg
+  - derived matchKey: `an umbrella stand made from a severed troll's leg`
 - **book6_quiz4_expert_9-10.md Q9**
   - answer: One thousand and twelve to one thousand and fifty-six (1012–1056)
   - derived matchKey: `one thousand and twelve to one thousand and fifty-six`
@@ -87,3 +87,6 @@ Spot-check these in data/quizzes.json and shorten the `matchKey` field by hand i
 - **quiz_4_expert_9-10.md Q20**
   - answer: The Daily Prophet clipping about the Gringotts vault break-in
   - derived matchKey: `the daily prophet clipping about the gringotts vault break-in`
+- **quiz_4_expert_9-10.md Q24**
+  - answer: A packet of crisps each and four bananas
+  - derived matchKey: `a packet of crisps each and four bananas`

@@ -1,6 +1,6 @@
 # Harry Potter and the Goblet of Fire — Pub Quiz 4 (Difficulty 9/10)
 
-*20 questions. For die-hard re-readers only — exact numbers, names and lines.*
+*24 questions. For die-hard re-readers only — exact numbers, names and lines.*
 
 1. **(Characters) (Open)** What creature does Hermione discover Rita Skeeter secretly transforms into, to spy on Hogwarts undetected?
 
@@ -42,6 +42,14 @@
 
 20. **(Food/Sweets) (Open)** What sugary snack is an overweight, dieting Dudley caught secretly smuggling into his room?
 
+21. **(Places) (Open)** What is the name of the village near the Burrow where Harry and the Weasleys begin their walk to the World Cup Portkey?
+
+22. **(Quidditch) (Open)** How many extra Galleons do Fred and George throw in for a fake wand (a rubber chicken) as part of their bet with Ludo Bagman?
+
+23. **(Creatures) (Open)** What color is the hide of the Swedish Short-Snout, the dragon breed Cedric faces in the first task?
+
+24. **(Food/Sweets) (Open)** Per Chapter 3, name one person (besides Mrs. Weasley) who sends Harry a birthday cake over the summer holidays.
+
 ---
 
 ## Answer Key — Quiz 4 (9/10)
@@ -66,5 +74,9 @@
 18. About a year
 19. Rock cakes
 20. Doughnuts
+21. Ottery St. Catchpole
+22. 5 Galleons
+23. Silvery-blue
+24. Ron, Hermione, Hagrid, or Sirius (any one)
 
 **Tiebreaker (exact number):** How old is Harry at the start of the book? → **14**

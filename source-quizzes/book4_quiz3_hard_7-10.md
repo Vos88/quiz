@@ -1,10 +1,10 @@
 # Harry Potter and the Goblet of Fire — Pub Quiz 3 (Difficulty 7/10)
 
-*20 questions. Mostly (here, entirely) open questions — this round rewards close readers.*
+*28 questions, entirely open — this round rewards close readers.*
 
 1. **(Characters) (Open)** Who is secretly disguised as Mad-Eye Moody for most of the school year?
 
-2. **(Characters) (Open)** Which house-elf secretly gives Harry gillyweed before the second task?
+2. **(Characters) (Open)** Which imprisoned Death Eater couple does Voldemort mention as still loyal to him, promising they'll be freed "beyond their dreams"?
 
 3. **(Characters) (Open)** Whose Bludger breaks Viktor Krum's nose during the Quidditch World Cup final?
 
@@ -42,12 +42,28 @@
 
 20. **(Food/Sweets) (Open)** How many barrels of mulled mead are rumoured to have been bought for the Yule Ball?
 
+21. **(Characters) (Open)** In what state is the real Alastor Moody found, after being rescued from a hidden compartment of his own magical trunk?
+
+22. **(Places) (Open)** Where exactly is Sirius Black living while he secretly visits Harry near Hogsmeade?
+
+23. **(Plot) (Open)** What does Barty Crouch Jr. do with his father's body after murdering him, to hide the evidence?
+
+24. **(Magic) (Open)** What is the name of the spell, practiced before the third task, that makes a wand point due north?
+
+25. **(Quidditch) (Open)** How many points does Viktor Krum have overall, going into the third task?
+
+26. **(Creatures) (Open)** What creature do Harry and Cedric encounter in the maze that turns out to be a boggart in disguise?
+
+27. **(Numbers) (Open)** How many spectral "echoes" emerge from Voldemort's wand during the Priori Incantatem duel?
+
+28. **(Food/Sweets) (Open)** What kind of snacks does Hermione send Harry over the summer holidays, according to Chapter 3?
+
 ---
 
 ## Answer Key — Quiz 3 (7/10)
 
 1. Barty Crouch Jr. (using Polyjuice Potion)
-2. Dobby
+2. The Lestranges
 3. Quigley (the Irish Chaser)
 4. "Pine fresh"
 5. The statue of Boris the Bewildered
@@ -66,5 +82,13 @@
 18. 85 points
 19. About 6 a day
 20. 800 barrels
+21. Starved, with his wooden leg and magical eye removed, found alive but very weak
+22. In a mountain cave above Hogsmeade
+23. Transfigures it into a bone and buries it in front of Hagrid's cabin
+24. The Four-Point Spell (Point Me)
+25. 80 points
+26. A dementor
+27. Five
+28. Sugar-free snacks
 
 **Tiebreaker (exact number):** According to Voldemort's graveyard speech, how many Death Eaters are "missing" from the circle he gathers? → **Six**

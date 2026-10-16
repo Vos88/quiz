@@ -1,4 +1,7 @@
-// Creates (or re-creates) one QuizGen quiz per book/tier from data/quizzes.json.
+// Publishes one QuizGen quiz per book/tier from data/quizzes.json.
+// Upserts: if generated-quizzes.json already has an id for that book/tier,
+// PUTs the new definition onto the existing quiz (same URL, so already-shared
+// links keep working); otherwise POSTs a new one.
 // Usage:
 //   node scripts/create-quizzes.js            # all 28
 //   node scripts/create-quizzes.js --book=book1   # just one book's 4 tiers
@@ -89,6 +92,28 @@ async function createQuiz(apiKey, definition) {
   return body; // { id, slug, url, status, ... }
 }
 
+async function updateQuiz(apiKey, id, definition) {
+  const res = await fetch(`${API_BASE}/quizzes/${id}`, {
+    method: 'PUT',
+    headers: { Authorization: `Bearer ${apiKey}`, 'Content-Type': 'application/json' },
+    body: JSON.stringify(definition),
+  });
+
+  if (res.status === 429) {
+    const retryAfter = Number(res.headers.get('Retry-After') || '5');
+    console.warn(`Rate limited, waiting ${retryAfter}s...`);
+    await sleep(retryAfter * 1000);
+    return updateQuiz(apiKey, id, definition);
+  }
+
+  const body = await res.json();
+  if (res.status !== 200) {
+    const details = body.error?.validation_errors ? `\n  - ${body.error.validation_errors.join('\n  - ')}` : '';
+    throw new Error(`QuizGen rejected update to "${definition.title}" (HTTP ${res.status}): ${body.error?.message || res.statusText}${details}`);
+  }
+  return body;
+}
+
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
@@ -98,7 +123,6 @@ async function main() {
   const data = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
 
   const bookFilter = process.argv.find((a) => a.startsWith('--book='))?.split('=')[1];
-  const force = process.argv.includes('--force');
   const bookKeys = bookFilter ? [bookFilter] : Object.keys(data).sort();
   if (bookFilter && !data[bookFilter]) {
     console.error(`Unknown book "${bookFilter}". Known: ${Object.keys(data).sort().join(', ')}`);
@@ -112,19 +136,23 @@ async function main() {
     const book = data[bookKey];
     results[bookKey] = results[bookKey] || { title: book.title, tiers: {} };
     for (const tier of Object.keys(book.quizzes)) {
-      if (results[bookKey].tiers[tier] && !force) {
-        console.log(`Skipping ${bookKey}/${tier} (already published: ${results[bookKey].tiers[tier].url}) -- pass --force to recreate`);
-        continue;
-      }
       const definition = buildDefinition(book.title, tier, book.quizzes[tier]);
-      process.stdout.write(`Creating ${bookKey}/${tier}... `);
-      const created = await createQuiz(apiKey, definition);
-      console.log(created.url);
-      results[bookKey].tiers[tier] = {
-        difficulty: book.quizzes[tier].difficulty,
-        id: created.id,
-        url: created.url,
-      };
+      const existingEntry = results[bookKey].tiers[tier];
+      if (existingEntry) {
+        process.stdout.write(`Updating ${bookKey}/${tier} (${existingEntry.url})... `);
+        await updateQuiz(apiKey, existingEntry.id, definition);
+        console.log('done');
+        results[bookKey].tiers[tier] = { ...existingEntry, difficulty: book.quizzes[tier].difficulty };
+      } else {
+        process.stdout.write(`Creating ${bookKey}/${tier}... `);
+        const created = await createQuiz(apiKey, definition);
+        console.log(created.url);
+        results[bookKey].tiers[tier] = {
+          difficulty: book.quizzes[tier].difficulty,
+          id: created.id,
+          url: created.url,
+        };
+      }
       await sleep(DELAY_MS);
     }
   }
@@ -133,7 +161,7 @@ async function main() {
   console.log(`\nWrote ${OUT_FILE}`);
 }
 
-module.exports = { buildDefinition, createQuiz };
+module.exports = { buildDefinition, createQuiz, updateQuiz };
 
 if (require.main === module) {
   main().catch((err) => {

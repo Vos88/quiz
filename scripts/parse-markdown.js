@@ -51,32 +51,47 @@ function wordCount(s) {
 //   2. Genuinely multi-part answers (orderings, "name all N", multi-person score
 //      lists) that cannot be reduced to one matchable phrase at all -- these are
 //      marked `requiresManualGrading` instead of given a misleading matchKey.
+// Re-populated after the 20-40 question regeneration and a fresh review of
+// data/matchkey-review.md. Most flagged long answers are fine as-is (the
+// substring-containment check in grading.js means a short correct partial
+// answer still matches a long-but-single-fact key, e.g. wand specs/prices).
+// These entries cover the two real failure modes: narrative-padded answers
+// (trimmed to the gradable core) and genuinely multi-part answers (orderings,
+// "name all N", multi-person lists) that can't be reduced to one phrase.
 const MANUAL_GRADING = new Set([
-  'book5_quiz1_easy_3-10.md#18',
-  'book5_quiz2_medium_5-10.md#16',
-  'book5_quiz3_hard_7-10.md#19',
-  'book5_quiz4_expert_9-10.md#10',
-  'book6_quiz3_hard_7-10.md#19',
-  'book7_quiz3_hard_7-10.md#20',
-  'book2_quiz4_expert_9-10.md#20',
-  'quiz_4_expert_9-10.md#17',
+  'book2_quiz4_expert_9-10.md#4', // list all 7 Weasley children
+  'book4_quiz4_expert_9-10.md#13', // 4-step score sequence
+  'book7_quiz3_hard_7-10.md#20', // 4-step Horcrux destruction order
+  'quiz_4_expert_9-10.md#17', // 4-person point-award list
 ]);
 
 const MATCHKEY_OVERRIDES = {
-  'book2_quiz2_medium_5-10.md#7': 'bewitches a bludger',
-  'book2_quiz4_expert_9-10.md#9': 'terrified of birds',
-  'book2_quiz4_expert_9-10.md#11': 'filibuster firework',
-  'book2_quiz4_expert_9-10.md#12': 'squirts boiling tea',
-  'book2_quiz4_expert_9-10.md#17': 'unnamed traveller',
-  'book3_quiz3_hard_7-10.md#13': 'three years',
+  'book2_quiz2_medium_5-10.md#9': 'bewitches a bludger',
+  'book2_quiz2_medium_5-10.md#19': 'harry was unconscious',
+  'book2_quiz3_hard_7-10.md#10': "filibuster firework in goyle's cauldron",
+  'book2_quiz4_expert_9-10.md#8': 'terrified of birds',
+  'book2_quiz4_expert_9-10.md#11': 'squirts boiling tea',
+  'book3_quiz2_medium_5-10.md#26': 'binky',
+  'book3_quiz3_hard_7-10.md#15': 'three years',
+  'book3_quiz3_hard_7-10.md#25': 'rejoin his master',
   'book3_quiz4_expert_9-10.md#1': "sirius's prank",
-  'book3_quiz4_expert_9-10.md#3': 'buckbeak',
-  'book3_quiz4_expert_9-10.md#7': 'transform safely',
-  'book3_quiz4_expert_9-10.md#11': 'become killers',
-  'book3_quiz4_expert_9-10.md#15': 'it was himself',
-  'book3_quiz4_expert_9-10.md#18': 'order of merlin',
-  'book3_quiz4_expert_9-10.md#19': 'presses the knot',
+  'book3_quiz4_expert_9-10.md#4': 'transform safely',
+  'book3_quiz4_expert_9-10.md#5': 'final year',
+  'book3_quiz4_expert_9-10.md#6': 'buckbeak',
+  'book3_quiz4_expert_9-10.md#12': 'torn left ear and missing toe',
+  'book3_quiz4_expert_9-10.md#14': 'dangerous to humans',
+  'book3_quiz4_expert_9-10.md#16': 'become killers',
+  'book3_quiz4_expert_9-10.md#19': 'order of merlin',
+  'book3_quiz4_expert_9-10.md#20': 'presses the knot',
+  'book3_quiz4_expert_9-10.md#23': 'it was sirius',
+  'book3_quiz4_expert_9-10.md#24': 'feared exposing himself',
+  'book3_quiz4_expert_9-10.md#25': 'ron asked her not to',
+  'book3_quiz4_expert_9-10.md#26': 'fakes his arm injury',
+  'book4_quiz2_medium_5-10.md#25': 'voldemort',
   'book4_quiz3_hard_7-10.md#7': 'tickle the pear',
+  'book5_quiz2_medium_5-10.md#11': 'james bullying snape',
+  'book5_quiz2_medium_5-10.md#30': 'cruciatus curse',
+  'book7_quiz2_medium_5-10.md#23': 'summon the dead',
 };
 
 function parseFile(filePath) {
@@ -159,8 +174,8 @@ function parseFile(filePath) {
   }
 
   const orderedQuestions = [...questions.values()].sort((a, b) => a.number - b.number);
-  if (orderedQuestions.length !== 20) {
-    throw new Error(`${filename}: expected 20 questions, found ${orderedQuestions.length}`);
+  if (orderedQuestions.length < 20 || orderedQuestions.length > 40) {
+    throw new Error(`${filename}: expected 20-40 questions, found ${orderedQuestions.length}`);
   }
 
   return { bookTitle, difficulty, questions: orderedQuestions, tiebreaker, reviewFlags };

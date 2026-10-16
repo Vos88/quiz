@@ -1,6 +1,6 @@
 # Harry Potter and the Philosopher's Stone — Pub Quiz 4 (Difficulty 9/10)
 
-*20 questions. For die-hard re-readers only — exact numbers, names and lines.*
+*24 questions. For die-hard re-readers only — exact numbers, names and lines.*
 
 1. **(Food/Sweets) (Open)** What unlucky Bertie Bott's Every Flavour Bean flavour does Dumbledore get at Harry's bedside near the end of the book?
 
@@ -16,11 +16,11 @@
 
 7. **(Magic) (Open)** Mr Ollivander says the phoenix whose tail feather sits in Harry's wand gave only one other feather. Whose wand is it in?
 
-8. **(Numbers) (Open)** How much does a single unicorn horn cost at the apothecary in Diagon Alley?
+8. **(Creatures) (Open)** How much does a single unicorn horn cost at the apothecary in Diagon Alley?
 
-9. **(Numbers) (Open)** How much does dragon liver cost per ounce, according to a complaint Harry overhears in the apothecary?
+9. **(Creatures) (Open)** How much does dragon liver cost per ounce, according to a complaint Harry overhears in the apothecary?
 
-10. **(Numbers) (Open)** Exactly how much (in Sickles and Knuts) does Harry spend on sweets from the trolley on the Hogwarts Express?
+10. **(Food/Sweets) (Open)** Exactly how much (in Sickles and Knuts) does Harry spend on sweets from the trolley on the Hogwarts Express?
 
 11. **(Plot) (Open)** On what date does the Daily Prophet report the Gringotts break-in, and why is that date significant?
 
@@ -41,6 +41,14 @@
 19. **(Magic) (Open)** What are James's and Lily's wands made of (wood and length each)?
 
 20. **(Plot) (Open)** What does Hagrid keep hidden under a tea cosy on his table, which Harry spots during a visit?
+
+21. **(Quidditch) (Open)** According to the Quidditch trivia Harry reads, in which desert does a vanished referee turn up months later?
+
+22. **(Places) (Open)** According to Griphook, roughly how often are the vaults at Gringotts checked?
+
+23. **(Characters) (Open)** What phrase does Percy Weasley keep repeating as he proudly shepherds students away from the troll on Hallowe'en?
+
+24. **(Food/Sweets) (Open)** What "rations" does Uncle Vernon bring to the shack on the rock, on the night before Harry's eleventh birthday?
 
 ---
 
@@ -66,5 +74,9 @@
 18. 382 BC
 19. James: mahogany, 11 inches, pliable. Lily: willow, 10¼ inches, swishy
 20. The Daily Prophet clipping about the Gringotts vault break-in
+21. The Sahara Desert
+22. About once every ten years
+23. "I'm a Prefect"
+24. A packet of crisps each and four bananas
 
-**Tiebreaker (exact number):** How many years old is Nicolas Flamel at the point revealed in the book? → **665**
+**Tiebreaker (exact number):** How many times does Dumbledore click the Put-Outer to remove all the light from Privet Drive's street lamps? → **12**

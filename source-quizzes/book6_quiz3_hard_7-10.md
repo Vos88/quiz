@@ -1,6 +1,6 @@
 # Harry Potter and the Half-Blood Prince — Pub Quiz 3 (Difficulty 7/10)
 
-*20 questions. Mostly open questions — this round rewards close readers.*
+*24 questions, entirely open answer — this round rewards close readers.*
 
 1. **(Characters) (Open)** Name the Ministry of Magic employee whose decades-old memory Dumbledore obtains, after the man's death, to show Harry the Gaunt family's history.
 
@@ -30,17 +30,25 @@
 
 14. **(Numbers) (Open)** How many total points does Snape deduct from Gryffindor on Harry's first night back at school, combining the penalties for lateness and for wearing Muggle clothing?
 
-15. **(Quidditch) (Open)** In the Keeper tryouts, Ron saved all five penalties he faced. How many did Cormac McLaggen save out of five?
+15. **(Numbers) (Open)** How many years did Morfin Gaunt serve in Azkaban after his conviction by the Wizengamot for attacking Ogden and a Muggle?
 
-16. **(Quidditch) (Open)** What was the final score when Gryffindor lost badly to Hufflepuff, the match in which Harry was knocked unconscious by a mishit Bludger?
+16. **(Quidditch) (Open)** In the Keeper tryouts, Ron saved all five penalties he faced. How many did Cormac McLaggen save out of five?
 
-17. **(Creatures) (Open)** What does Ginny eventually name her pet Pygmy Puff?
+17. **(Quidditch) (Open)** What was the final score when Gryffindor lost badly to Hufflepuff, the match in which Harry was knocked unconscious by a mishit Bludger?
 
-18. **(Creatures) (Open)** What is the name of Hagrid's dying giant Acromantula, whose funeral Slughorn secretly attends in order to harvest venom?
+18. **(Quidditch) (Open)** Of Gryffindor's six first-half goals against Slytherin in the season opener, how many did Ginny Weasley score?
 
-19. **(Plot) (Open)** Put these three Pensieve memories in the order Dumbledore shows them to Harry: (a) Hokey the house-elf's memory of Hepzibah Smith; (b) Bob Ogden's memory of the Gaunt family; (c) Dumbledore's own memory of meeting eleven-year-old Tom Riddle at the orphanage.
+19. **(Creatures) (Open)** What does Ginny eventually name her pet Pygmy Puff?
 
-20. **(Food/Sweets) (Open)** What crystallized treat does Slughorn once give as a favor to people he "collects" for his Slug Club?
+20. **(Creatures) (Open)** What does Slughorn secretly harvest from Aragog's fangs while attending the dying spider's funeral?
+
+21. **(Food/Sweets) (Open)** What crystallized treat does Slughorn once give as a favor to people he "collects" for his Slug Club?
+
+22. **(Food/Sweets) (Open)** What does Hagrid feed Aragog to keep him comfortable as the giant spider lies dying?
+
+23. **(Deaths) (Open)** Whom did a teenage Tom Riddle murder with Avada Kedavra, framing his uncle Morfin for the crime?
+
+24. **(Deaths) (Open)** What is the name of the Death Eater killed by a stray curse from his own side during the battle on the night Dumbledore dies?
 
 ---
 
@@ -60,11 +68,15 @@
 12. Twelve (12) hours
 13. Twelve (12) goblets
 14. Seventy (70) points — 50 for lateness, 20 for Muggle clothing
-15. Four (4) out of five
-16. Hufflepuff 320, Gryffindor 60
-17. Arnold
-18. Aragog
-19. Bob Ogden's Gaunt family memory → Dumbledore's meeting with eleven-year-old Tom Riddle → Hokey's memory of Hepzibah Smith
-20. Crystallized pineapple
+15. Three (3) years
+16. Four (4) out of five
+17. Hufflepuff 320, Gryffindor 60
+18. Four (4)
+19. Arnold
+20. Acromantula venom
+21. Crystallized pineapple
+22. Giant grubs
+23. Tom Riddle Sr. and his parents (the Riddle family)
+24. Gibbon
 
 **Tiebreaker (exact number):** How many Galleons did a single fake Metamorph-Medal cost, before the Ministry confiscated them? → **10**
