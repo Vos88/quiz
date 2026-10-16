@@ -64,6 +64,12 @@ Lines marked `⚠ needs manual check` are questions that genuinely can't be
 auto-graded (orderings, "name all N", multi-part answers) — just eyeball the
 printed submitted answer against the expected one.
 
+It also writes `results.html` (gitignored — it has real team names/answers,
+never published) with the full detail per quiz: a team/score summary table,
+plus a collapsible section per team listing every question, what they
+answered, right/wrong, and the expected answer when wrong. Open it in any
+browser.
+
 To check just one quiz while testing:
 ```
 node scripts/fetch-scores.js --quiz=book1:easy
